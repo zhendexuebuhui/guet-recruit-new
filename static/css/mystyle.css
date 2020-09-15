@@ -1,0 +1,235 @@
+.main-container {
+    margin: 0 auto;
+    width: 100%;
+    height:100%;
+    overflow-y: hidden;
+   
+}
+.content-container {
+  margin: 0 auto;
+  width: 85% !important;
+ 
+}
+.content-center {
+  margin: 0 auto;
+  position: absolute;
+  
+}
+.bar-head{
+    float: right;
+}
+.el-carousel__item h3 {
+    color: #475669;
+    font-size: 14px;
+    opacity: 0.75;
+    line-height: 150px;
+    margin: 0;
+  }
+
+  .el-carousel__item:nth-child(2n) {
+     background-color: #99a9bf;
+  }
+  
+  .el-carousel__item:nth-child(2n+1) {
+     background-color: #d3dce6;
+  }
+
+  .bg-purple-dark {
+    background: #99a9bf;
+  }
+  .bg-purple {
+    background: #d3dce6;
+  }
+  .bg-purple-light {
+    background: #e5e9f2;
+  }
+  .grid-content {
+    border-radius: 4px;
+    min-height: 36px;
+  }
+  .row-bg {
+    padding: 10px 0;
+    background-color: #f9fafc;
+  }
+  .logo{
+      float: left;
+  }
+  .white-content {
+    border-radius: 4px;
+    min-height: 36px;
+  }
+  .bg-white {
+    background: white;
+  }
+.banner_img{
+    width: auto;  
+    height: auto;  
+    max-width: 100%;  
+    max-height: 100%;
+}
+.el-col p{
+  text-indent:2em;
+  line-height: 30px;
+}
+.head_title {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 1000;
+  filter:alpha(Opacity=90);-moz-opacity:0.9;opacity: 0.9
+}
+.my-card{
+  margin:10px;
+}
+.button-right{
+  margin-right: 10px;
+}
+.footer{
+  background-color: #f7fbfd;
+  width: 100%;
+  margin-top: 50px;
+  padding: 40px 150px;
+  margin-bottom: auto;
+  box-sizing: border-box;
+  height: 180px;
+  margin-top: -5px;
+}
+.footer_content{
+  text-align: center;
+}
+.footer_content div{
+
+  margin-bottom: 20px;
+}
+.el-step__description {
+  font-size:16px;
+  text-indent:2em;
+  line-height: 27px;
+  padding-bottom: 15px;
+}
+.el-step__title {
+  font-size:20px;
+}
+.el-step.is-vertical .el-step__title {
+  line-height: 24px;
+  padding-bottom: 15px;
+  
+}
+.imgDescription{
+  display: block;
+  font-size: 16px;
+  color: #8492a6;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.image_preview{
+  width: 350px;
+  height: 310px;
+}
+.part_title{
+  text-align: center;
+}
+.gallery_img{
+  height: 250px;
+}
+.teacher_img{
+  height: 250px;
+  
+  
+}
+.el-collapse-item__arrow{
+    margin:0;
+    margin-left:20px  ;
+    transition: transform .3s;
+    font-weight: 300;
+}
+.el-collapse-item__content {
+  font-size: 15px;
+}
+.el-collapse-item__header {
+  font-size: 17px;
+}
+.blue-part{
+  background: rgb(121, 187, 255);
+  color: white;
+  display: inline-block;
+  width: 100%;
+}
+.num-title{
+  padding-left: 40px;
+  margin: 30px;
+  margin-top: 40px;
+  font-size: 60px;
+}
+.contact-font{
+  font-size: 20px;
+  width: 80%;
+  padding-left: 40px;
+  line-height: 40px;
+
+}
+.contact-icon-list{
+  padding-left: 40px;
+}
+.contact-icon-list div{
+  margin-top: 16px;
+}
+.contact-icon-list span{
+  margin-left: 13px;
+  font-size: 18px;
+}
+.btn-black{
+    display: inline-block;
+    line-height: 2;
+    white-space: nowrap;
+    background: black;
+    color: white;
+    -webkit-appearance: none;
+    text-align: center;
+    box-sizing: border-box;
+    outline: 0;
+    cursor: pointer;
+    margin: 0;
+    transition: .1s;
+    font-weight: 500;
+    padding: 12px 20px;
+    font-size: 18px;
+    border: 0px  #DCDFE6;
+    width: 60%;
+  
+    
+}
+.el-input__inner{
+  border-radius:0;
+}
+.el-textarea__inner {
+  border-radius:0;
+
+}
+.head_title a{
+  text-decoration: none;
+  color: #000000;
+}
+.el-menu-item a{
+
+  text-decoration: none;
+  color:#909399;
+  
+}
+
+.el-scrollbar__wrap{
+  overflow-x: hidden;
+}
+.page-component__scroll{
+  height: calc(100% - 65px);
+    margin-top: 65px;
+ 
+}
+.page-component__scroll .el-scrollbar__wrap {
+  overfLow: auto;
+}
+.el-scrollbar{
+  overflow: hidden;
+}
